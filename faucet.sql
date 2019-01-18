@@ -15,7 +15,7 @@ CREATE DATABASE IF NOT EXISTS `faucet` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `faucet`;
 
 CREATE TABLE IF NOT EXISTS `users` (
-  `address` varchar(35) NOT NULL,
+  `address` varchar(44) NOT NULL,
   `time` int(11) unsigned NOT NULL,
   `ip` varchar(17) NOT NULL,
   `amount` varchar(7) NOT NULL
